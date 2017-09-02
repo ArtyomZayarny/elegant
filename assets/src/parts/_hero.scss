@@ -1,0 +1,27 @@
+.hero {
+   padding: rem(252) 0 ;
+	&__text {
+    max-width: rem(630);
+		padding: 0 15px;
+		text-align: center;
+		margin: 0 auto;
+		
+		
+		
+		&--title {
+		color: #ffffff;
+		font-family: Raleway;
+		font-size: 48px;
+		font-weight: 700;
+		line-height: 60px;
+		text-transform: uppercase;
+	}
+	&--desc {
+		color: #fffefe;
+		font-family: Lato;
+		font-size: 22px;
+		font-weight: 400;
+		line-height: 30px;
+	}
+	}
+}

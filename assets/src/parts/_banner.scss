@@ -1,0 +1,7 @@
+	.banner {
+	@include bg-img('../../img/about.jpg');
+		&__wrap {
+			@extend .flex-row;
+		}
+
+}

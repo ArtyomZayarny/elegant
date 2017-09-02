@@ -1,0 +1,43 @@
+.main-header {
+	@include bg-img('../../img/HERO%20Img.jpg');
+	padding-top: rem(45);
+	height: 100vh;
+	position: relative;
+	&-wrap {
+		@extend .flex-row;
+		align-items: center;
+		justify-content: space-between;
+		&__logo {}
+		.menu {
+			@extend .flex-row;
+			width: rem(669);
+			justify-content: space-around;
+			&__link {
+				color: #fffefe;
+				font-family: Lato;
+				font-size: 14px;
+				font-weight: 500;
+				line-height: 38px;
+				text-transform: uppercase;
+				transition: all .3s ease;
+				&:hover {
+					font-size: 18px;
+				}
+			}
+		}
+	}
+	&__scroll {
+		display: block;
+		width: 92px;
+		height: 92px;
+		background: url(../../img/scroll.png);
+		position: absolute;
+		bottom: 15px;
+		left: 45%;
+		
+		transition: all .3s ease;
+		&:hover {
+			opacity: .6;
+		}
+	}
+}
